@@ -35,11 +35,20 @@ export default function App() {
   return (
     <div className="App">
       <h2 style={{ color: "green" }}>Leap Year Check</h2>
-      <h4>Type your Year of Birth Here </h4>
+      <h4 style={{ color: "orange" }}>Type your Year of Birth Here </h4>
       <div> 👇</div>
       <input
         type="number"
-        style={{ margin: "1.3rem", height: "5vh" }}
+        style={{
+          color: "red",
+          backgroundColor: "beige",
+          borderRadius: "0.5rem",
+          fontSize: "1.3rem",
+          padding: "0.5rem",
+          margin: "1.3rem",
+          height: "5vh",
+          width: "35%"
+        }}
         onChange={changeHandler}
       ></input>
       <div>
