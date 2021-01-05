@@ -34,8 +34,12 @@ export default function App() {
 
   return (
     <div className="App">
-      <h2 style={{ color: "green" }}>Leap Year Check</h2>
-      <h4 style={{ color: "orange" }}>Type your Year of Birth Here </h4>
+      <h2 style={{ color: "green", fontSize: "1.5rem", fontFamily: "cursive" }}>
+        Leap Year Check
+      </h2>
+      <h4 style={{ color: "orange", fontSize: "1.25rem" }}>
+        Type your Year of Birth Here{" "}
+      </h4>
       <div> 👇</div>
       <input
         type="number"
